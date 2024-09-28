@@ -1,0 +1,32 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.range {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    width: 500px;
+    height: 500px;
+}
+
+.card {
+    align-items: center;
+    background-color: #666;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.pair {
+    background-color: #999;
+}
+
+.selected {
+    background-color: salmon;
+}
+
+
+

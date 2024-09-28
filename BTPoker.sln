@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTPoker.Server", "BTPoker.Server\BTPoker.Server.csproj", "{F946556B-C515-49D7-BFAD-B56D03E2F50C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "btpoker.client", "btpoker.client\btpoker.client.esproj", "{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBTPoker", "TestBTPoker\TestBTPoker.csproj", "{28241A84-DF92-4994-A23B-C4597A001E7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F946556B-C515-49D7-BFAD-B56D03E2F50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F946556B-C515-49D7-BFAD-B56D03E2F50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F946556B-C515-49D7-BFAD-B56D03E2F50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F946556B-C515-49D7-BFAD-B56D03E2F50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8AB0E5-4450-4CD5-A145-43658BC56DDB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{28241A84-DF92-4994-A23B-C4597A001E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28241A84-DF92-4994-A23B-C4597A001E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28241A84-DF92-4994-A23B-C4597A001E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28241A84-DF92-4994-A23B-C4597A001E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {109311CA-761E-4AF0-B231-FC5CEBC30F9B}
+	EndGlobalSection
+EndGlobal
