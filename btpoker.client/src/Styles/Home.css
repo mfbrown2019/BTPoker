@@ -12,7 +12,6 @@
 
 .card {
     align-items: center;
-    background-color: #666;
     border: 1px solid black;
     border-radius: 5px;
     display: flex;
@@ -28,5 +27,20 @@
     background-color: salmon;
 }
 
+.value-0 {
+    background-color: #666; /* For value 1 (Raise) */
+}
+
+.value-1 {
+    background-color: red; /* For value 1 (Raise) */
+}
+
+.value-2 {
+    background-color: green; /* For value 2 (Call) */
+}
+
+.value-3 {
+    background-color: blue; /* For value 3 (Bluff) */
+}
 
 
